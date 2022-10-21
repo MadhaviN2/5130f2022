@@ -1,4 +1,5 @@
-ABSTRACT:
+                                               IMPLEMENTING RESPONSIVE WEB DESIGNS FOR ENHANCED WEB PRESENCE
+      ABSTRACT:
 
 In the recent days, Modern companies, and industries designed to multiple websites to extend
 reach of the facilities to the customers.Web pages design is not only related to appearance
