@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initialscale=1.0">
+ <title>MadhaviKrishna Nalluri </title>
+</head>
+<body style="background:lightgreen;">
+ <h3 class="header1"> Internet and web system </h3>
+ <p class="para1">Hover image to see Name and ID</p>
+ <table>
+ <tr>
+ <td>
+ <div class="flip-box">
+ <div class="flip-box-inner">
+ <div class="flip-box-front">
+ <img src="photo.jpeg" alt="paris"
+style="width:200px;height:300px">
+ </div>
+<div class="flip-box-back">
+ <h2>Madhavi Krishna Nalluri</h2>
+ <p>UML ID 02048849</p>
+ </div>
+ </div>
+ </div>
+ </td>
+ <td class="col1">
+ <table>
+ <tr>
+ <td>
+ <h2>Madhavi Krishna</h2>
+ </td>
+<td>
+ <h2>Nalluri</h2>
+ </td>
+ </tr>
+<tr>
+ <td>
+ <h3>02048849</h3>
+ </td>
+ </tr>
+ </table>
+ </td>
+ </tr>
+ </table>
+ <table class="table">
+ <tr class="tr">
+ <td class="td">
+ <h2 style="border-bottom: 1px solid">Unordered list
+Skills</h2>
+ <ul class="ul">
+ <li>HTML</li>
+<li>CSS</li>
+<li>Boostrap</li>
+ </ul>
+ </td>
+ <td class="td">
+ <h2 style="border-bottom: 1px solid;">Ordered list
+Experience</h2>
+ <ol class="ol">
+ <li>back-end developer </li>
+<li> 3 years</li>
+<li>Cybage Pune</li>
+ </ol>
+ </td>
+ <td class="td">
+ <h2 style="border-bottom: 1px solid;">Ordered list
+Experience</h2>
+ <ol class="ol">
+ <li>back-end developer </li>
+ <li> 3 years</li>
+<li>Cybage Pune</li>
+ </ol>
+ </td>
+ </tr>
+ </table>
+ <style>
+ .ol{
+ font-weight: heavy;
+ font-style: times new roman;
+ font-display: unset;
+ }
+ .table tr td {
+ border: 2px solid;
+ border-bottom: 2px solid;
+ }
+ .col1 {
+ text-align: center;
+ }
+ .header1 {
+ text-align: center;
+ font-family: cursive;
+ }
+ .para1 {
+ color: red;
+ text-align: center;
+ font-family: "Lucida Console", "Courier New", monospace;
+ }
+ .flip-box {
+ background-color: transparent;
+ width: 200px;
+ height: 300px;
+ border: 1px solid #f1f1f1;
+ perspective: 1000px;
+ }
+ .flip-box-inner {
+ position: relative;
+ width: 100%;
+ height: 100%;
+ text-align: center;
+ transition: transform 0.8s;
+ transform-style: preserve-3d;
+ }
+ .flip-box:hover .flip-box-inner {
+ transform: rotateY(180deg);
+ }
+ .flip-box-front,
+ .flip-box-back {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ -webkit-backface-visibility: hidden;
+ backface-visibility: hidden;
+ }
+ .flip-box-front {
+ background-color: #bbb;
+ color: pink;
+ }
+ .flip-box-back {
+ background-color: dodgerblue;
+ color: white;
+ transform: rotateY(180deg);
+ }
+ </style>
+</body>
+</html>
+
+
+<header>
+    <div class="text-box">
+      <h1 id="title">Enter your details</h1><hr>
+        <p id="description">Tell us about your experience </p>
+    </div>
+  </header>
+      <div class="container">
+        <form id="survey-form" method="GET">
+  
+           <div class="labels">
+            <label id="name-label" for="name">* Full Name</label></div>
+          <div class="input-tab">
+            <input class="input-field" type="text" id="name" name="name" placeholder="Enter your name" required autofocus></div>
+  
+           <div class="labels">
+            <label id="email-label" for="email">* Email</label></div>
+          <div class="input-tab">
+            <input class="input-field" type="email" id="email" name="email" placeholder="email@email.com" required></div>
+          
+           <div class="labels">
+            <label id="number-label" for="number">* Age</label></div>
+          <div class="input-tab">
+            <input class="input-field" type="number" id="number" name="number" min="1" max="120" placeholder="15" required></div>
+
+           <div class="labels">
+            <label id="name-label" for="place">* your place of birth</label></div>
+          <div class="input-tab">
+            <input class="input-field" type="text" id="place" name="place" placeholder="Enter your name" required autofocus></div>
+      
+            <div class="labels">
+                <label id="name-label" for="live">*Where do you live now </label></div>
+              <div class="input-tab">
+                <input class="input-field" type="text" id="live" name="live" placeholder="Enter your name" required autofocus></div>
+          
+            <div class="labels">
+                <label id="name-label" for="date">* date of birth</label></div>
+              <div class="input-tab">
+                <input class="input-field" type="text" id="date" name="date" placeholder="Enter your name" required autofocus></div>
+          
+            <div class="labels">
+                <label id="name-label" for="background-color">* your family</label></div>
+              <div class="input-tab">
+                <input class="input-field" type="text" id="background" name="background" placeholder="Enter your name" required autofocus></div>
+          
+            
+          
+          <div class="labels">
+            <label for="comments">Tell us more about your self</label></div>
+          <div class="input-tab">
+            <textarea class="input-field" id="comments" name="comments" rows="10" cols="40" placeholder="Your comments..."></textarea></div>
+          
+          <div class="btn">
+            <button id="submit" type="submit">Submit</button>
+          </div>
+          
+        </form>
+      </div>
+  
+  
+  </footer>
+  
